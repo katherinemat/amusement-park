@@ -2,18 +2,27 @@ $(document).ready(function(){
   var height = parseInt(prompt("How tall are you in inches?"));
 
   if (height < 40) {
-    $("li.1").show();
+    $("ul#1").show();
+    $("ul#1").addClass("yellow-background");
   } else if (height < 50) {
-    $("li.1").show();
-    $("li.2").show();
+    $("ul#1").show();
+    $("ul#1").addClass("yellow-background");
+    $("ul#2").show();
+    $("ul#2").addClass("blue-background");
   } else if (height < 60) {
-    $("li.1").show();
-    $("li.2").show();
-    $("li.3").show();
+    $("ul#1").show();
+    $("ul#1").addClass("yellow-background");
+    $("ul#2").show();
+    $("ul#2").addClass("blue-background");
+    $("ul#3").show();
+    $("ul#3").addClass("red-background");
   } else {
-    $("li.2").show();
-    $("li.3").show();
-    $("li.4").show();
+    $("ul#2").show();
+    $("ul#2").addClass("blue-background");
+    $("ul#3").show();
+    $("ul#3").addClass("red-background");
+    $("ul#4").show();
+    $("ul#4").addClass("green-background");
   }
 
 

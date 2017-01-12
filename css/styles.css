@@ -1,3 +1,18 @@
-ul li {
+ul  {
   display: none;
+}
+.yellow-background {
+   background-color: yellow;
+ }
+
+.blue-background {
+  background-color: blue;
+}
+
+.red-background {
+ background-color: red;
+}
+
+.green-background {
+  background-color: green;
 }
